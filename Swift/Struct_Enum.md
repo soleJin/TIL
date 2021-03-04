@@ -7,7 +7,7 @@ struct Constants {
 }
 ```
 ```swift
-enum Constants {
+enum Constants: String {
   case title = "타이틀"
 }
 ```
