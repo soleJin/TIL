@@ -3,7 +3,7 @@
 (일기같음 주의)
 
 ### Swift
-  * [문자열관리](https://github.com/soleJin/TIL/blob/main/Swift/Struct_Enum.md)
+  * 210305 [문자열관리](https://github.com/soleJin/TIL/blob/main/Swift/Struct_Enum.md)
 
 ### iOS
 
