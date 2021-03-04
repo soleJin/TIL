@@ -60,3 +60,5 @@ let hypotenuse = side * Math.root2
 
 너무 조급해하지말고,<br>
 하나하나 알아가는데 의미를 두자! 화이팅 :)
+
+[스위프트 스타일 가이드](https://github.com/soleJin/TIL/blob/main/Swift/Struct_Enum.md)를 시간내서 틈틈히 조금씩이라도 꼭 보자!
