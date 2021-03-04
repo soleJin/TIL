@@ -37,6 +37,7 @@ class BankManager {
   var bankClerks: [BankClerk] = []
   var waitingList = Heap<Customer>(comparator: { $0.grade.priority < $1.grade.priority })
   let randomCustomerGrade = Grade.allCases.randomElement()
+}
 ```
 이렇게 구현했던 기억이 있다.<br>
 생각해보면 정해져있는? 변하지 않는 케이스라면, 또 인스턴스를 못만들게 하고 싶을 때는 enum을, (그래도 여전히 rawValue를 호출하는게 나는 왜 눈에 거슬릴까?😅)<br>
