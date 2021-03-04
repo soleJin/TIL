@@ -58,6 +58,16 @@ let hypotenuse = side * Math.root2
 결론은,<br>
 난 앞으로 문자열 관리할 때는 **enum static** 조합으로 쓰련다!<br>
 > 왜? 인스턴스 생성안하고, 확장유무 관계없이 모두 사용가능하니까
+```swift
+enum Family {
+  case father
+  case mother
+  case me
+  
+  static let name: String
+  static let address: String
+}
+```
 
 너무 조급해하지말고,<br>
 하나하나 알아가는데 의미를 두자! 화이팅 :)
