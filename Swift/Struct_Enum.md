@@ -1,4 +1,4 @@
-### struct-static let VS enum-case rawValue
+## struct-static let VS enum-case rawValue
 
 문자열을 따로 관리할 때 여러가지 방법이 있다.
 ```swift
@@ -44,7 +44,7 @@ class BankManager {
 확장성 측면에선 struct-static let이 더 좋지 않을까 하는 생각이었는데 (하지만 enum과 다르게 인스턴스를 생성할 수 있음) <br>
 요새 올라오는 다른캠퍼들의 PR에 달린 리뷰어들의 코멘트를 보다 야곰이 링크를 걸어줘서 확인해 봤더니 헐? (나와 짝꿍이었던 엘림의 질문이었....?)<br>
 야곰과 흰이 알려준 [참조](https://github.com/raywenderlich/swift-style-guide#constants)를 보면 
-#### Preferred:
+**Preferred:**
 ```swift
 enum Math {
   static let e = 2.718281828459045235360287
