@@ -43,7 +43,7 @@ class BankManager {
 ```
 이렇게 구현했던 기억이 있다<br>
 생각해보면? 
-||strunt|enum|
+||struct|enum|
 |:--:|:--:|:--:|
 |depth|2단계<br>struct.perperty|3단계<br>enum.case.rawValue|
 |instance|생성할 수 있음|못함(강제적임)|
