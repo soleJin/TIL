@@ -80,6 +80,6 @@ enum Family {
 ```
 
 [스위프트 스타일 가이드](https://github.com/soleJin/TIL/blob/main/Swift/Struct_Enum.md)를 틈틈히 보자!<br>
-(요새 이상한거😰 공부해서 이런거 공부하면 시간낭비하는것 같지 않으면서 필요한거기도 하고 시간 잘갈듯..?)<br>
+(요새 이상한거😰 공부해서 이런거 정리하면 행복할 ..?)<br>
 ??... <br>
 아무튼 화이팅!
