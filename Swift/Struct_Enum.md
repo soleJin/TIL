@@ -53,7 +53,7 @@ class BankManager {
 그런데....? 😈<br>
 요새 올라오는 다른캠퍼들의 PR에 달린 리뷰어들의 코멘트를 보다 야곰이 링크를 걸어줘서 확인해 봤더니 헐? (나와 짝꿍이었던 엘림의 질문이었....?) <br>
 야곰과 흰이 알려준 [참조](https://github.com/raywenderlich/swift-style-guide#constants)를 보면 <br><br>
-**Preferred**
+**Preferred:**
 
 ```swift
 enum Math {
@@ -80,7 +80,7 @@ enum Family {
 }
 ```
 
-[스위프트 스타일 가이드](https://github.com/soleJin/TIL/blob/main/Swift/Struct_Enum.md)를 틈틈히 보자!<br>
+[스위프트 스타일 가이드](https://github.com/raywenderlich/swift-style-guide#constants)를 틈틈히 보자!<br>
 (요새 이상한거😰 공부해서 이런거 정리하면 행복할 듯😯)<br>
 ??... <br>
 아무튼 화이팅!
