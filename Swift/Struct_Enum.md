@@ -45,7 +45,7 @@ class BankManager {
 생각해보면 정해져있는? 변하지 않는 케이스라면, 또 인스턴스를 못만들게 하고 싶을 때는 enum을, (그래도 여전히 rawValue를 호출하는게 나는 왜 눈에 거슬릴까?😅)<br>
 확장성 측면에선 struct-static let이 더 좋지 않을까 하는 생각이었는데 (하지만 enum과 다르게 인스턴스를 생성할 수 있음) <br>
 요새 올라오는 다른캠퍼들의 PR에 달린 리뷰어들의 코멘트를 보다 야곰이 링크를 걸어줘서 확인해 봤더니 헐? (나와 짝꿍이었던 엘림의 질문이었....?)<br>
-야곰과 흰이 알려준 [참조](https://github.com/raywenderlich/swift-style-guide#constants)를 보면 
+야곰과 흰이 알려준 [참조](https://github.com/raywenderlich/swift-style-guide#constants)를 보면 <br>
 **Preferred:**
 ```swift
 enum Math {
