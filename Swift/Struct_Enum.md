@@ -41,15 +41,15 @@ class BankManager {
   let randomCustomerGrade = Grade.allCases.randomElement()
 }
 ```
-이렇게 구현했던 기억이 있다.<br>
-생각해보면 
+이렇게 구현했던 기억이 있다<br>
+생각해보면? 
 ||strunt|enum|
 |:--:|:--:|:--:|
-||2개<br>struct.perperty|3개<br>enum.case.rawValue|
-|인스턴스|생성함|안함|
-<br>
-이런 차이점을 제외하면 enum은 불변의 조건들을 갖을 때, struct는 enum보다는 유연함이 필요될 때를 고려해서 사용했던 것 간다. <br>
-그런데....? <br>
+|depth|2단계<br>struct.perperty|3단계<br>enum.case.rawValue|
+|instance|생성함|안함|
+
+이런 차이점을 제외하면 enum은 유한의 조건들을 갖을 때, struct는 enum보다는 유연함이 필요될 때를 고려해서 사용했던 것 간다. <br>
+그런데....? 😈<br>
 요새 올라오는 다른캠퍼들의 PR에 달린 리뷰어들의 코멘트를 보다 야곰이 링크를 걸어줘서 확인해 봤더니 헐? (나와 짝꿍이었던 엘림의 질문이었....?) <br>
 
 야곰과 흰이 알려준 [참조](https://github.com/raywenderlich/swift-style-guide#constants)를 보면 <br><br>
