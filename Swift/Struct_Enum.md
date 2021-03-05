@@ -1,6 +1,5 @@
 ## struct-static let VS enum-case rawValue
 
-<br>
 문자열을 따로 관리할 때 여러가지 방법이 있다.
 ```swift
 struct Constants {
