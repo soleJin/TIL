@@ -48,7 +48,7 @@ class BankManager {
 |depth|2단계<br>struct.perperty|3단계<br>enum.case.rawValue|
 |instance|생성할 수 있음|못함(강제적임)|
 
-이런 차이점을 제외하면 enum은 유한의 조건들을 갖을 때, struct는 enum보다는 유연함이 필요될 때를 고려해서 사용했던 것 간다. <br>
+이런 차이점을 제외하면 enum은 유한의 조건들을 갖을 때, struct는 enum보다는 유연함이 필요될 때를 고려해서 사용했던 것 같다. <br>
 (사실 rawValue부르는거 자꾸 거슬려서 enum에 손이 잘 안가기도 했고,<br>
 바로 전 프로젝트때 붱이랑 struct의 static let과 enum의 case로 처리해주는 것에 대해서 얘기했었는데<br>
 그 때 프로젝트에 급급해서 더 깊게 생각못한 과거의 나 반성한다🙏🏻)<br>
@@ -70,7 +70,8 @@ let hypotenuse = side * Math.root2
 
 결론은,<br>
 난 앞으로 문자열 관리할 때는 기분 좋게 **enum**을 애용하게 될 것 같다! 오홍홍<br>
-> 왜? 인스턴스 생성안하고, 확장유무 관계없이 모두 사용가능하니까
+> 왜? 인스턴스 생성안하고, 확장유무 관계없이 모두 사용가능하니까<br>
+> (그리고 rawValue 안불러도 된다ㅎㅎㅎㅎ🐥)
 ```swift
 enum Family {
   case father
